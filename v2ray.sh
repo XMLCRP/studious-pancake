@@ -3,10 +3,7 @@
 # Desc: v2ray installation script
 # Plat: ubuntu 18.04+
 # Eg  : bash v2ray_installation_vmess.sh "你的域名" "你的邮箱" [vless]
-```s
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vmess.sh | bash -s vmess.v2ray.one youremail.gmail.com vless
 
-```
 if [ -z "$1" ];then
 	echo "域名不能为空"
 	exit
